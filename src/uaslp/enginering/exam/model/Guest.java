@@ -5,6 +5,8 @@ public class Guest {
     private String name;
     private String country;
     private String phoneNumber;
+    private String address;
+
 
     public String getAddress() {
         return address;
@@ -14,7 +16,6 @@ public class Guest {
         this.address = address;
     }
 
-    private String address;
 
     public String getPhoneNumber() {
         return phoneNumber;

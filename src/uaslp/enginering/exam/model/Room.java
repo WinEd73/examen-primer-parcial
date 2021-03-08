@@ -2,28 +2,15 @@ package uaslp.enginering.exam.model;
 
 public class Room {
     private int number;
-    private String status;
+    private String description;
     private RoomStatus roomStatus;
 
-    public Room(int number, String status, RoomStatus roomStatus){
+    public Room(int number, String description, RoomStatus roomStatus){
         this.number = number;
-        this.status = status;
-        this. roomStatus = roomStatus;
+        this.description = description;
+        this.roomStatus = roomStatus;
     }
 
-    public int getNumber() { return number;}
-
-    public void setNumber(int number) {
-        this.number = number;
-    }
-
-    public String getStatus() {
-        return status;
-    }
-
-    public void setStatus(String status) {
-        this.status = status;
-    }
 
     public RoomStatus getRoomStatus() {
         return roomStatus;
@@ -34,4 +21,19 @@ public class Room {
     }
 
 
-}
+    public int getNumber() { return number;}
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+
+    }

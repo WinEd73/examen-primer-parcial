@@ -5,6 +5,7 @@ public class Reservation {
     private Guest guest;
     private int roomNumber;
     private String arrivalDate;
+    private int nights;
 
 
     public int getRoomNumber() {
@@ -32,7 +33,6 @@ public class Reservation {
         this.nights = nights;
     }
 
-    private int nights;
 
     public Guest getGuest() {
         return guest;

@@ -9,7 +9,6 @@ public class Hotel {
 
 
     public Hotel() {
-
         reservations = new ArrayList<>();
         rooms = new ArrayList<>();
     }
