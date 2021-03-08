@@ -8,7 +8,8 @@ public class Hotel {
     private ArrayList <Room> rooms;
 
 
-    public Hotel() {
+    public Hotel(String name) {
+        setName(name);
         reservations = new ArrayList<>();
         rooms = new ArrayList<>();
     }

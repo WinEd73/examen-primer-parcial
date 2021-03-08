@@ -38,7 +38,7 @@ public class Main {
     }
 
     private static Hotel prepareHotel() {
-        Hotel hotel = new Hotel();
+        Hotel hotel = new Hotel("Comfort POO Inn");
 
         hotel.addRoom(new Room(100, "1-BED-KING", RoomStatus.CLEAN)); // Room receives room number and room description
         hotel.addRoom(new Room(101, "2-BED-QUEEN", RoomStatus.CLEAN));
@@ -50,6 +50,8 @@ public class Main {
         hotel.addRoom(new Room(203, "2-BED-QUEEN", RoomStatus.CLEAN));
         hotel.addRoom(new Room(204, "2-BED-QUEEN", RoomStatus.CLEAN));
         hotel.addRoom(new Room(205, "2-BED-QUEEN", RoomStatus.DIRTY));
+
+
 
         return hotel;
     }
@@ -65,7 +67,7 @@ public class Main {
         System.out.println();
         System.out.println("Room statuses");
         for (Room room : rooms) {
-            System.out.println(room.getNumber() + " - " + room.getDescription());
+            System.out.println(room.getNumber() + " - " + room.getRoomStatus());
         }
         System.out.println("---------------------------------------------------------------------");
     }
