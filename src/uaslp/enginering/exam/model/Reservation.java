@@ -33,7 +33,6 @@ public class Reservation {
         this.nights = nights;
     }
 
-
     public Guest getGuest() {
         return guest;
     }

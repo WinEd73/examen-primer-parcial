@@ -11,7 +11,7 @@ exitosamente y que se pueda ejecutar el main con la salida:
     Comfort POO Inn - Hotel information
     Total rooms: 10
     Total pools: 2
-    Total gyms: 1
+    Total gyms: 1 
     
     Room statuses
     100 - CLEAN

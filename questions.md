@@ -2,7 +2,7 @@
     > Abstracción, encapsulamiento, herencia, polimorfismo.  
 
 1. Se refiere a modelar un sistema tomando en cuenta solo las características de las entidades que afectan al sistema y dejando de lado lo irrelevante
-    > Abstraccion
+    > Abstraccion.
 
 1. ¿A que pilar de la POO corresponde el uso de las palabras reservadas public y private ?
     > encapsulamiento

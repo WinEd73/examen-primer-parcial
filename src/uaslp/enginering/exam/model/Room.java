@@ -35,5 +35,4 @@ public class Room {
         this.description = description;
     }
 
-
     }
