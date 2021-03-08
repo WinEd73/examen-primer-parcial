@@ -38,7 +38,7 @@ public class Main {
     }
 
     private static Hotel prepareHotel() {
-        Hotel hotel = new Hotel("Comfort POO Inn");
+        Hotel hotel = new Hotel();
 
         hotel.addRoom(new Room(100, "1-BED-KING", RoomStatus.CLEAN)); // Room receives room number and room description
         hotel.addRoom(new Room(101, "2-BED-QUEEN", RoomStatus.CLEAN));
